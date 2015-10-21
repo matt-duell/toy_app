@@ -2,9 +2,9 @@ language: ruby
 rvm:
   - 2.0.0-p247
 
-branches:
-	only:
-		- master
+#branches:
+#	only:
+#		- master
 
 deploy:
   provider: heroku

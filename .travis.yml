@@ -1,12 +1,10 @@
 language: ruby
 rvm:
-  - 2.0.0-p247
-
-#branches:
-#	only:
-#		- master
-
+- 2.0.0-p247
 deploy:
   provider: heroku
-  api_key: "dcc6aac9-b9ec-4f3e-9de3-4b90e687a851"
-
+  api_key:
+    secure: dSUe2iamcBCKqdWaiCfdrIrbfNps8tt+uI4WH6f0c5fg0gkBr307IvCMaSQWwaQ3f7AJGcBpIZbP9C/h6b/SSpvvPXxIDJsjnuigkFBOwvMuupXl4+fspeoAN9xYtg5EDnsKyIu1w8ENrnbNtHUZA5whDcodvAWpG5Kdktjo7lL8APR2WCgb4Em6TevXmHfqSV2kAfs0f26E3D/+3zfI2o2OJNeM0s7B+qiqQy7ISxguqeDFjPR0XbpKWFwcmX81tyyyY+2hFzIzny4swtY//VohHOF/sT/fXs2nR2kMjdgwumVhbWlmg0w1RrzkHvTewISGezMASLl1fz3cw7ADcXmj3NYLA5VDybPwZ/YomlF7cvVlZ6ETgMztSH+UDaUsNI1IzJvwULg7uCk92Si4OTA3GGqdhGwDH603ZX0CMxiSNgwout4O6St5zmM2HJ59D5MPmJ7QWE3hk0WzvI44ILqChCzqWbfKqGPQGtRd3FZ+q+PUS8HfWvIf06P6a+FfmgC/1jOwxpkyHyiHlY0zBBTxrhzL14E9PckB0CL6Chl3ed5t7RMf1TtGcrtOXGW3OuJJKCVokBX2k37hZxTmPzk4pdwhirSNVleZoKSFK/r4RgcrCzqv/FuqUTJbzRLUeR2FQhfRjqVpLc/i5HTuyNhaqXyQohdh7AiMAWFHnyI=
+  app: fierce-depths-6680
+  on:
+    repo: matt-duell/toy_app
